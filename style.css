@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+.first_section {
+}
+.container {
+  margin: auto;
+  /* place-items: center; */
+  text-align: center;
+  margin-top: 50px;
+}
+.first_section .logo {
+  margin: auto;
+}
+.first_section .logo h2 {
+  /* font-weight: 900; */
+  text-transform: uppercase;
+}
+.first_section .logo h2 i {
+  display: block;
+  margin-bottom: 5px;
+}
+.first_section .title h1 {
+  text-align: center;
+  color: #0f0f10;
+}
+
+.first_section .title h1 span {
+  color: #e14f4f;
+}
+.first_section .container > p {
+  font-size: 1.1em;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+/* .popup_video {
+  position: fixed;
+  top: 25%;
+  right: 25%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+} */
+.videoo {
+  position: relative;
+}
+.popup_video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  display: none;
+}
+.popup_video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.popup_video > i {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: bolder;
+  z-index: 1000;
+  cursor: pointer;
+}
+.cont {
+  position: relative;
+  cursor: pointer;
+}
+.cont > i {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  font-size: 65px;
+  color: darkcyan;
+}
+.second_section {
+  background-color: #e14f4f;
+  color: white;
+}
+.second_section .container {
+  margin: auto;
+  place-items: center;
+  text-align: left;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+.second_section .container .content p {
+  color: #ddd9d9;
+}
+.second_section .container .right {
+  background-color: #28282a;
+  width: 60%;
+  padding: 5%;
+}
+form h2 {
+  text-align: center;
+  font-size: 18px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  margin-bottom: 15px;
+}
+form .sub {
+  text-align: center;
+}
+form .sub .btn {
+  border-radius: 52px;
+}
+.content {
+  margin-bottom: 50px;
+}
